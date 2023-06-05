@@ -39,24 +39,23 @@ app.get('/integrantes',(req,res)=>{
 
 app.get('/products',(req,res)=>{
     res.send(`
-   
-       
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Catálogo de productos</title>
+        <style>
             body {
                 text-align: center;
-                background-color: #f2f9f0;
             }
     
             h1 {
-                color: #207e4c;
-                font-family: 'Arial', sans-serif;
-                font-size: 24px;
+                color: #333;
             }
     
             .product-list {
                 list-style-type: none;
                 padding: 0;
                 margin: 20px 0;
-                text-align: center;
             }
     
             .product-list li {
@@ -67,29 +66,23 @@ app.get('/products',(req,res)=>{
                 display: inline-block;
                 width: 100px;
                 text-align: left;
-                color: #207e4c;
-                font-family: 'Arial', sans-serif;
-                font-size: 16px;
             }
     
             .btn {
                 display: inline-block;
                 padding: 10px 20px;
-                background-color: #207e4c;
+                background-color: #333;
                 color: #fff;
                 text-decoration: none;
                 margin: 10px;
-                font-family: 'Arial', sans-serif;
-                font-size: 18px;
-                border-radius: 5px;
             }
     
             .btn:hover {
-                background-color: #0d5533;
+                background-color: #555;
             }
         </style>
-   
-   
+    </head>
+    <body>
         <h1>Catálogo de productos</h1>
         <p>Bienvenidos</p>
     
@@ -112,8 +105,9 @@ app.get('/products',(req,res)=>{
     
         <a href="#" class="btn">Guardar compra</a>
         <a href="#" class="btn">Cancelar compra</a>
-   
-        
+    </body>
+    </html>
+    
     `)
 })
 
