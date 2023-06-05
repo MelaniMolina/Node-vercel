@@ -49,7 +49,7 @@ app.get('/products',(req,res)=>{
             }
     
             h1 {
-                color: #333;
+                color: #66bb6a;
             }
     
             .product-list {
