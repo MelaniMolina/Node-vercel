@@ -71,7 +71,7 @@ app.get('/products',(req,res)=>{
             .btn {
                 display: inline-block;
                 padding: 10px 20px;
-                background-color: #c8e6c9;
+                background-color: #a2d9a5;
                 color: #fff;
                 text-decoration: none;
                 margin: 10px;
