@@ -84,19 +84,19 @@ app.get('/products',(req,res)=>{
     </head>
     <body>
         <h1>Catálogo de productos</h1>
-        <p>Bienvenidos</p>
+        <p>Bienvenidos a la Tienda Electronics </p>
     
         <ul class="product-list">
             <li>
-                <span>Producto 1:</span>
+                <span>La consola de videojuego:</span>
                 <span>$10.00</span>
             </li>
             <li>
-                <span>Producto 2:</span>
+                <span>La impresora láser:</span>
                 <span>$15.00</span>
             </li>
             <li>
-                <span>Producto 3:</span>
+                <span>La cámara digital:</span>
                 <span>$20.00</span>
             </li>
             <!-- Agrega más productos aquí -->
